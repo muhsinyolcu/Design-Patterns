@@ -4,10 +4,17 @@
     {
         private static CustomerManager _customerManager;
         private CustomerManager() { }
-
+        static object _lockObject = new object();
         public static CustomerManager CreateAsSingleton()
         {
-            return _customerManager ?? (_customerManager = new CustomerManager());
+            lock (_lockObject)
+            {
+                if (_customerManager == null)
+                {
+                    _customerManager = new CustomerManager();
+                }
+            }
+            return _customerManager;
         }
 
         public void Save() => System.Console.WriteLine("Saved!!");
