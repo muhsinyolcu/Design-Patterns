@@ -9,11 +9,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "FactoryMet
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{3469AB3A-BAE5-42E9-99BF-4235923AF446}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prototype.csproj", "{46CE6218-58CF-4068-B255-B188FBD6D4F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "Prototype\Prototype.csproj", "{46CE6218-58CF-4068-B255-B188FBD6D4F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{022489CA-A464-4EF7-8899-B3F0FD6B2BDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.csproj", "{022489CA-A464-4EF7-8899-B3F0FD6B2BDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csproj", "{60AB900A-DFDF-40EA-B0D3-54C563832967}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade", "Facade\Facade.csproj", "{60AB900A-DFDF-40EA-B0D3-54C563832967}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{7322CC68-1690-4EB3-8291-C7509ABC03A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Composite\Composite.csproj", "{B3B75121-A1A6-4AAE-B458-F95CC14F9B0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{60AB900A-DFDF-40EA-B0D3-54C563832967}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60AB900A-DFDF-40EA-B0D3-54C563832967}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60AB900A-DFDF-40EA-B0D3-54C563832967}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7322CC68-1690-4EB3-8291-C7509ABC03A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7322CC68-1690-4EB3-8291-C7509ABC03A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7322CC68-1690-4EB3-8291-C7509ABC03A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7322CC68-1690-4EB3-8291-C7509ABC03A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3B75121-A1A6-4AAE-B458-F95CC14F9B0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3B75121-A1A6-4AAE-B458-F95CC14F9B0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3B75121-A1A6-4AAE-B458-F95CC14F9B0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3B75121-A1A6-4AAE-B458-F95CC14F9B0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
