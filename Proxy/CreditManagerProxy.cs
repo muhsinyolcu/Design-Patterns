@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Proxy
+﻿namespace Proxy
 {
     class CreditManagerProxy : CreditBase
     {

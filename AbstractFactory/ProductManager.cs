@@ -1,14 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace AbstractFactory
 {
     class ProductManager
     {
-       private CrossCuttingConcernsFactory _crossCuttingConcernsFactory;
-       private Logging _logging;
-       private Caching _caching;
+        private CrossCuttingConcernsFactory _crossCuttingConcernsFactory;
+        private Logging _logging;
+        private Caching _caching;
         public ProductManager(CrossCuttingConcernsFactory crossCuttingConcernsFactory)
         {
             _crossCuttingConcernsFactory = crossCuttingConcernsFactory;

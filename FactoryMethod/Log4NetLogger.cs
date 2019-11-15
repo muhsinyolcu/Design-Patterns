@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace FactoryMethod
+﻿namespace FactoryMethod
 {
     class Log4NetLogger : ILogger
     {

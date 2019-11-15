@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Composite
+﻿namespace Composite
 {
     class Contractor : IPerson
     {
-        public string Name  { get; set; }
+        public string Name { get; set; }
     }
 }
