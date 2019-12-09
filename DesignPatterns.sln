@@ -29,9 +29,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "Strategy\Strate
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer", "Observer\Observer.csproj", "{31C819F7-DB1B-427F-91D6-75CC43D900E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "ChainOfResponsibility\ChainOfResponsibility.csproj", "{16BEEEA3-03F2-4DAE-A937-0D851FA1F7AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibility", "ChainOfResponsibility\ChainOfResponsibility.csproj", "{16BEEEA3-03F2-4DAE-A937-0D851FA1F7AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento", "Memento\Memento.csproj", "{54E4F380-2AF1-4370-87A3-34D9EB026B06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memento", "Memento\Memento.csproj", "{54E4F380-2AF1-4370-87A3-34D9EB026B06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{920F0B32-1B05-43E6-9A98-DACC18D9A88A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "State\State.csproj", "{ED6659DF-39A3-4F31-B3F6-17FB2B5D7096}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +103,14 @@ Global
 		{54E4F380-2AF1-4370-87A3-34D9EB026B06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54E4F380-2AF1-4370-87A3-34D9EB026B06}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54E4F380-2AF1-4370-87A3-34D9EB026B06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{920F0B32-1B05-43E6-9A98-DACC18D9A88A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{920F0B32-1B05-43E6-9A98-DACC18D9A88A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{920F0B32-1B05-43E6-9A98-DACC18D9A88A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{920F0B32-1B05-43E6-9A98-DACC18D9A88A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED6659DF-39A3-4F31-B3F6-17FB2B5D7096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED6659DF-39A3-4F31-B3F6-17FB2B5D7096}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED6659DF-39A3-4F31-B3F6-17FB2B5D7096}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED6659DF-39A3-4F31-B3F6-17FB2B5D7096}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
